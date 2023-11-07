@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000021;
+    color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgba( 18, 18,32);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: blueviolet;
+    font-size: 1.02rem;
+}
+main hr{
+    border: 0;
+    background: #5151b7;
+    height: 0.2px;
+    margin: 40px 84px;
+
+}
+
+.left{
+    font-size: 1rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin: 5vh 0;
+    
+    
+}
+.first > div{
+    width: 30%;
+    
+}
+
+.leftsection{
+    
+    font-size: 2rem;
+    margin: 70px 0;
+
+}
+.rigthsection img{
+    width: 50;
+    
+}
+.purple{
+    color: rgb(172, 105, 234);
+}
+#element{
+    color: #5151b7;
+    size: 2rem;
+}
+.About_me{
+    padding: 2rem;
+    margin: 2rem;
+}
+#secondsection{
+    max-width: 80vw;
+    margin: auto;
+    padding: 80px;
+
+}
+#secondsection {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+   margin: 5vh 0;
+
+}
+#secondsection >div{
+    width: 30%;
+}
+.aboutme-1{
+    font-size: 4rem;
+    margin: 70px 0;
+}
+.aboutme-2{
+    font-size: 1.5rem;
+}
+.skillscontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 4rem;
+    
+
+}
+.heading h1{
+    text-align: center;
+    color:rgb(172, 105, 234);
+}
+.bars{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: o.5rem 0;
+    margin-bottom: 0.5rem;
+}
+.myskill{
+    color: white;
+}
+.bars h3,span{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2vh 0;
+    color: grey;
+}
+.ligthbar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.6rem;
+    border-radius: 0.5rem;
+    background-color: #5151b7;
+}
+.percentagebar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.6rem;
+    background: var(--main-color);
+    border-radius: 0.6rem;
+    background-color: rgb(160, 166, 226);
+}
+.pythonbar{
+    width: 90%;
+}
+.htmlbar{
+    width: 85%;
+
+}
+.cssbar{
+    width: 85%;
+}
+.jsbar{
+    width: 85%;
+}
+.reactbar{
+    width: 90%;
+}
+.sqlbar{
+    width: 90%;
+}
+.mysqlbar{
+    width: 90%;
+
+}
+.eduheading{
+    text-align: center;
+    color:rgb(172, 105, 234);
+}
+#education{
+    padding: 30px 0;
+}
+.education_list{
+    display: grid;
+   
+}
+.heading{
+    font-size: 25px;
+   
+}
+.timeline-content {
+background-color: #000021;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(14, 210, 63, 0.1);
+padding: 20px;
+position: relative;
+color: #fff; 
+}
+
+.timeline-title {
+margin-top: 0;
+color: #aaaaaae7; 
+}
+.timeline-degree,
+.timeline-duration {
+color: white;
+font-size: 25px; /* Update the remaining text color to white */
+}
+
+<!--service-->
+
+#service{
+padding: 30px 0;
+}
+#service h1 {
+text-align: center;
+color:rgb(172, 105, 234);
+
+}
+.mul_services{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+grid-gap: 40px;
+margin-top: 50px;
+
+}
+.mul_services div{
+background-color: #11114f;
+padding: 60px;
+font-size: 20px;
+font-weight: 300;
+border-right: 10px;
+}
+
+.mul_services div h2{
+font-size: 40px;
+font-weight: 300;
+}
+.mul_services div p{
+font-size: 20px;
+font-weight: 300;
+}
+.uil uil-arrow{
+font-size: 50px;
+}
+
+
+
+.contact{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 5vh 0;
+}
+.heading{
+text-align: center;
+color:rgb(172, 105, 234);
+}
+
+.container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 5vh 0;
+}
+.contact-left{
+flex-basis: 35%;
+border: 0px ;
+
+
+}
+.contact-rigth{
+flex-basis: 60%;
+margin-right: 60px;
+
+
+}
+
+.contact-left p i{
+color: #5151b7;
+margin-right: 25px;
+font-size: 25px;
+}
+.social-icons{
+text-decoration: none;
+font-size: 30px;
+margin-right: 15px;
+color: white;
+display: inline-block;
+
+
+}
+.social-icons a:hover{
+color: rgb(92, 134, 240);
+transform: translateY(-5px);
+
+
+
+}
+.btn{
+background-color: #1e2167;
+color: white;
+border: 2PX solid white;
+border-radius: 6px;
+font-size: 15PX;
+cursor: pointer;
+padding: 2vh;
+
+
+
+}
+.btn:hover{
+background-color: #522cb3;
+box-shadow: 0 0 0 5px #2828cf;
+}
+.contact-rigth form{
+width: 100%;
+
+}
+form input,form textarea{
+width: 100%;
+border: 0;
+outline: none;
+background: #242442b1;
+padding: 15px;
+margin: 15px 0;
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+}
+form btn{
+padding: 2vh;
+font-size: 20px;
+margin-top: 20px;
+
+}
+.copyrigth{
+width: 100%;
+text-align: right;
+padding: 2px 0;
+background: #242442b1;
+font-weight: 300;
+margin-top: 20px;
+}
+#msg{
+color: #5151b7;
+margin-top: -10px;
+display: block;
+}
+@media (max-width: 76px) {
+.timeline {
+width: 90%;
+}
+
+.timeline-item::before {
+top: 30px;
+}
+
+.timeline-item:last-child::before {
+height: calc(100% - 30px);
+}
+}
